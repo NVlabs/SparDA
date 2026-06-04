@@ -1,0 +1,3 @@
+*.json text !filter !merge !diff
+*.jsonl text !filter !merge !diff
+*.jsonls text !filter !merge !diff

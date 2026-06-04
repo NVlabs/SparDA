@@ -1,0 +1,20 @@
+{
+    "8b_nosa_sft": "openbmb/NOSA-8B",
+    "8b_fullattn_sft": "",
+    "8b_minicpm_sft": "openbmb/MiniCPM4.1-8B",
+    "8b_nosa_pref": "",
+    "8b_dma": "",
+    "8b_dma_pref": "",
+    "8b_nosa_sft_sb=8": "openbmb/NOSA-8B",
+    "8b_nosa_sft_sb=16": "openbmb/NOSA-8B",
+    "8b_nosa_sft_sb=24": "openbmb/NOSA-8B",
+    "8b_nosa_sft_sb=32": "openbmb/NOSA-8B",
+    "minicpm4-1-8b_minicpm": "openbmb/MiniCPM4.1-8B",
+    "minicpm4-1-8b_minicpm_sparda": "openbmb/MiniCPM4.1-8B",
+    "minicpm4-1-8b_dense": "openbmb/MiniCPM4.1-8B",
+    "nosa-8b_nosa": "openbmb/NOSA-8B",
+    "nosa-8b_nosa_dense": "openbmb/NOSA-8B",
+    "nosa-8b_nosa_sparda": "openbmb/NOSA-8B",
+    "nosa-8b_nosa_infinigen": "openbmb/NOSA-8B",
+    "minicpm4-1-8b_infinigen": "openbmb/MiniCPM4.1-8B"
+}

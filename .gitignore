@@ -1,0 +1,148 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# PyTorch
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Training outputs
+checkpoints/
+results/
+
+# Datasets (large files)
+datasets/
+
+# W&B
+wandb/
+
+# DeepSpeed auto-generated env files (job-specific, contains sensitive tokens)
+.deepspeed_env
+.deepspeed_env_*
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+.codex
+.codex/
+AGENTS.md
+CLAUDE.md
+*.pdf
+
+# Model cache
+.cache/
+~/.cache/huggingface/
+
+# CUDA compiled files
+*.cubin
+*.fatbin
+*.ptx
+
+# Run logs
+*.err
+
+
+# infllmv2_cuda_impl ignores
+infllmv2_cuda_impl/**/.eggs/
+infllmv2_cuda_impl/**/build/
+infllmv2_cuda_impl/**/*.egg-info/
+infllmv2_cuda_impl/**/*.egg
+infllmv2_cuda_impl/**/*.so
+infllmv2_cuda_impl/**/*.pyc
+infllmv2_cuda_impl/**/*.pyo
+infllmv2_cuda_impl/**/*.pyd
+infllmv2_cuda_impl/**/*.pyw
+infllmv2_cuda_impl/**/*.pyz
+infllmv2_cuda_impl/**/llamacu/
+infllmv2_cuda_impl/**/__pycache__/
+infllmv2_cuda_impl/**/.DS_Store
+infllmv2_cuda_impl/**/.vscode/
+infllmv2_cuda_impl/**/.idea/
+infllmv2_cuda_impl/**/.pytest_cache/
+infllmv2_cuda_impl/**/.coverage
+infllmv2_cuda_impl/**/.coverage.*
+infllmv2_cuda_impl/**/.coverage.*.*
+infllmv2_cuda_impl/**/.coverage.*.*.*
+infllmv2_cuda_impl/**/gradient_visualizations/
+infllmv2_cuda_impl/**/*.log
+infllmv2_cuda_impl/**/log/
+infllmv2_cuda_impl/**/*.png
+infllmv2_cuda_impl/**/*.jpg
+infllmv2_cuda_impl/**/*.jpeg
+infllmv2_cuda_impl/**/*.gif
+infllmv2_cuda_impl/**/*.bmp
+infllmv2_cuda_impl/**/*.tiff
+infllmv2_cuda_impl/**/*.ico
+infllmv2_cuda_impl/**/*.webp
+infllmv2_cuda_impl/**/*.svg
+infllmv2_cuda_impl/**/*.eps
+infllmv2_cuda_impl/**/*.pdf
+infllmv2_cuda_impl/**/out.txt
+
+
+# Dot-prefixed build directories (not caught by global build/)
+NOSA/**/.build/
+
+# Ninja build system files
+NOSA/**/.ninja_log
+NOSA/**/build.ninja
+
+# Object files
+NOSA/**/*.o
+
+# Nsight Systems profiling artifacts
+NOSA/**/*.nsys-rep
+NOSA/**/*.sqlite
+
+# Temp and metadata
+NOSA/dependencies/.msc
+
+# Generated benchmark outputs
+NOSA/benchmarks/Efficiency/*.csv
+NOSA/benchmarks/Efficiency/*.png
+NOSA/benchmarks/RULER/scripts/benchmark_root/
+NOSA/benchmarks/RULER/scripts/results/
+NOSA/benchmarks/RULER/scripts/data/synthetic/json/

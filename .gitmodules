@@ -1,0 +1,3 @@
+[submodule "infllmv2_cuda_impl/csrc/cutlass"]
+	path = infllmv2_cuda_impl/csrc/cutlass
+	url = https://github.com/NVIDIA/cutlass.git

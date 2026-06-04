@@ -1,0 +1,8 @@
+compute_environment: LOCAL_MACHINE
+distributed_type: MULTI_GPU
+num_processes: 8
+num_machines: 1
+mixed_precision: bf16
+downcast_bf16: 'no'
+use_cpu: false
+
